@@ -1,0 +1,49 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Roboto', sans-serif;
+}
+
+header {
+    width: 100%;
+}
+
+ul {
+    list-style: none;
+}
+
+#navigation {
+    float: right;
+}
+
+#navigation li {
+        display: inline-block;
+        padding: 8px;
+}
+
+#navigation #sign-in {
+    background: #488bf7;
+    margin-right: 25px;
+    padding: 7px 15px;
+    border-radius: 3px;
+    font-weight: bold;
+}
+
+.nav-link {
+    color:#404040;;
+}
+a {
+    text-decoration: none;
+    color: inherit;
+}
+li.nav-link a:hover {
+    text-decoration: underline;
+}
+#sign-in:hover {
+    color: black;
+    background: lightblue;
+}
+#sign-in {
+    color: #fff;
+}
+
