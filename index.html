@@ -1,44 +1,61 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
+    <!-- this is not totaly mine i have copied some 
+        code from a codepan but i did because i was 
+    weak to build so i learn while doing copy and i
+also did what is happine when i do something so. youknow forget that please-->
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Google Homepage</title>
+    <link rel="stylesheet" href="/styles/style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
 </head>
 <body>
+    <!--header area-->
     <header>
         <nav>
-            <ul>
-                <li> <a href="#">Gmail</a></li>
-                <li> <a href="#">Images</a></li>
-                <li> <a href="#">Sign In</a></li>
+            <ul  id="navigation">
+                <li class="nav-link" id="gmail"> <a href="#">Gmail</a></li>
+                <li class="nav-link" id="images"> <a href="#">Images</a></li>
+                <li class="nav-link" id="sign-in"> <a href="#">Sign In</a></li>
             </ul>
         </nav>
     </header>
-    <div>
-        <a href="#">
+
+    <!--google img area or logo are-->
+    <div class="google_img">
+        <a href="#" id="google_logo">
             <img src="/images/google-logo.png" alt="google logo image">
         </a>
     </div>
+
+    <!--this is search box-->
     <div>
-        <form>
-            <label></label>
-            <input type="text" id="search-form" placeholder="Search Here">
+        <form class="form">
+            <label for="search-box"></label>
+            <input type="text" id="search-box" placeholder="Search Here">
         </form>
     </div>
+
+    <!--this are buttons-->
     <div>
-        <input type="submit" value="Google Search">
-        <button value="I'm feeling Lucky">I'm Feeling Lucky</button>
+        <input type="submit" value="Google Search" id="google-search">
+        <button id="feelinglucky" value="I'm feeling Lucky">I'm Feeling Lucky</button>
     </div>
+
+    <!--this is footer area-->
     <footer>
-        <ul>
+        <ul class="footer-left">
             <li><a href="#">About</a></li>
             <li><a href="#">Advertising</a></li>
             <li><a href="#">Business</a></li>
             <li><a href="#">How Search works</a></li>
         </ul>
-        <ul>
+        <ul class="foote-right">
             <li><a href="#">Privacy</a></li>
             <li><a href="#">Terms</a></li>
             <li><a href="#">Settings</a></li>
